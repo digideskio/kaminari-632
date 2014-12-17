@@ -1,0 +1,19 @@
+!!! 5
+%html{lang: "en" }
+  %head    
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+    %meta{charset: "utf-8"}
+    %title Foo
+    %meta{content: "", name: "description"}
+    %meta{content: "", name: "author"}
+    %link{href: "/style.sass", rel: "stylesheet"}
+    %script{src: "/js_libs/jquery/dist/jquery.js"}
+    %script{src: "/js_libs/tooltipster/js/jquery.tooltipster.js"}
+    %script{src: "/js_libs/moment/moment.js"}
+    %script{src: "/js_libs/pikaday/pikaday.js"}
+    %script{src: "/js_libs/pikaday/plugins/pikaday.jquery.js"}
+    %link{href: "/js_libs/pikaday/css/pikaday.css", rel: "stylesheet"}
+    %link{href: "/js_libs/pikaday/css/site.css", rel: "stylesheet"}
+    %script{src: "/application.js"}
+  %body
+    = yield
